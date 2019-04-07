@@ -1,0 +1,50 @@
+h2 {
+  font-family: "Andale Mono", monospace;
+  color: darkslateblue;
+  text-align: center;
+  margin: 40px auto;
+}
+
+.stage {
+  width: 500px;
+  height: 100px;
+  margin: 100px auto 60px auto;
+}
+/* all child from .stage */
+.stage > img {
+  width: 100%;
+}
+/* 2 class formatting */
+.prev, .next {
+  width: 100px;
+  height: 25px;
+  background-color: #09D;
+  color: #FFF;
+  text-align: center;
+  cursor: pointer;
+  margin: 15px;
+}
+
+.controls {
+  width: 100%;
+  text-align: center;
+  display: flex; /*buttons side by side*/
+  align-items: center;
+  justify-content: center;
+}
+/* links title */
+.title {
+  margin: 100px auto 20px auto;
+  text-align: center;
+}
+/* external links */
+p {
+  font-family: "Andale Mono", monospace;
+  margin: 20px auto;
+  text-align: center;
+
+}
+
+body {
+  background-color: #D8D8D8;
+}
